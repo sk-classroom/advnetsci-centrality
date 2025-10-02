@@ -183,7 +183,7 @@ def compute_eccentricity_centrality(g):
     Returns:
         list or array: Eccentricity values for all nodes
     """
-    return g.eccentricity()
+    return ...
 
 
 @app.cell(hide_code=True)

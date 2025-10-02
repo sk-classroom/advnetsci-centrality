@@ -124,4 +124,4 @@ jobs:
         TASK-2_RESULTS: "${{steps.task-2.outputs.result}}"
         QUIZ-CHALLENGE_RESULTS: "${{steps.quiz-challenge.outputs.result}}"
       with:
-        runners: task-1,task-2,quiz-challenge
+        runners: task-1,task-2,task-3,task-4,task-5,quiz-challenge

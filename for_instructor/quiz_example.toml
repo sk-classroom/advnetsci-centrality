@@ -1,0 +1,7 @@
+[[questions]]
+question = "Consider a directed graph with 10 nodes, with average degree of 3. We have one node that only has one outgoing edge. This node cannot be the most central in terms of the closeness centrality."
+answer = "It can be the most central in terms of the closeness centrality. While going out from this node takes one additional step and therefore this neighbor seems to be more central than the starting node at least, the starting node can be more central if there is no edge from the neighbor to the starting node, as its path length is infinity."
+
+[[questions]]
+question = "Suppose a binary tree, where each parent has two children. The node in the root of the tree has the highest betweenness centrality."
+answer = "Being a tree does not warrant the node in the root of the tree to have the highest betweenness centrality. This is true only when the tree is balanced."

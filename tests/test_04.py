@@ -18,9 +18,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 # Import student function
 import importlib.util
 
-spec = importlib.util.spec_from_file_location(
-    "for_instructor", "for_instructor/assignment.py"
-)
+spec = importlib.util.spec_from_file_location("assignment", "assignment/assignment.py")
 assignment_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(assignment_module)
 
